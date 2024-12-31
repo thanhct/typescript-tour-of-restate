@@ -1,0 +1,15 @@
+POST http://localhost:8080/CartObject/Thanhct/addTicket
+Content-Type: application/json
+
+"seat2E"
+
+### checkout
+
+POST http://localhost:8080/CartObject/Thanhct/checkout
+
+### expireTicket
+
+POST http://localhost:8080/CartObject/Thanhct/expireTicket
+Content-Type: application/json
+
+"seat2E"
